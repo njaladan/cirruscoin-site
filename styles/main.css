@@ -170,6 +170,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
   opacity: 1;
 }
 
+.aa-testimonials-section {
+  background-color: #F5FAFD;
+}
+
 .aa-testimonials-section .aa-testimonials {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -182,7 +186,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
 }
 
 .aa-testimonials-section .aa-testimonials .aa-testimonials-body {
-  background-color: #F5FAFD;
+  background-color: #FFFFFF;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 2rem;
@@ -196,6 +200,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
 }
 
 .aa-testimonials-section .aa-testimonials .h5 {
+
   color: #111111;
 }
 
