@@ -63,23 +63,58 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header" style="padding:0px;padding-bottom:10px;">
-          <h3 class="modal-title">Buy CirrusCoin</h3>
+          <h3 class="modal-title">Register</h3>
         </div>
         <div class="modal-body" style="text-align:center;">
-          <p>The crowdsale address for CirrusCoin is:</p>
-          <h4 class="modal-title" style="color:red;margin-top:0px;">0x50ce4b73320eE36E307c1551207Fd8008F4F38EB</h4>
-          <p>Any ETH sent to this address will automatically be converted into tokens.</p>
-          <p class="font-weight-bold">Please set gas limit to 300,000.</p>
-          <small>Token address: 0x703dF068cf5709111C7eE9DAdeC2085e9ed0A14A</small><br />
-          <small>Current Price: 0.00167 ETH per CirrusCoin (33% discount until Feb. 15th)</small>
+          <form action="https://send.pageclip.co/koiiq4RqaEJ7evihF8PjNox0zTDXWcmm" class="pageclip-form" method="post">
+            <div class="form-group">
+              <label for="nameInput">Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+              <label for="emailInput">Email address</label>
+              <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="john@example.com">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="addressInput">Ethereum Address</label>
+              <input type="text" class="form-control" id="address" name="address" placeholder="0x050f9...">
+            </div>
+            <button type="submit" class="btn btn-success pageclip-form__submit">Submit</button>
+          </form>
         </div>
         <div class="modal-footer" style="padding:10px;">
+          <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#modalForm">Next</button>
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
 
     </div>
   </div>
+  <div id="modalForm" class="modal fade" role="dialog">
+    <div class="modal-dialog" style="max-width:650px;">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header" style="padding:0px;padding-bottom:10px;">
+        <h3 class="modal-title">Buy CirrusCoin</h3>
+      </div>
+      <div class="modal-body" style="text-align:center;">
+        <p>The crowdsale address for CirrusCoin is:</p>
+        <h4 class="modal-title" style="color:red;margin-top:0px;">0x50ce4b73320eE36E307c1551207Fd8008F4F38EB</h4>
+        <p>Any ETH sent to this address will automatically be converted into tokens.</p>
+        <p class="font-weight-bold">Please set gas limit to 300,000.</p>
+        <small>Token address: 0x703dF068cf5709111C7eE9DAdeC2085e9ed0A14A</small><br />
+        <small>Current Price: 0.00167 ETH per CirrusCoin (33% discount until Feb. 15th)</small>
+      </div>
+      <div class="modal-footer" style="padding:10px;">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
       <div>
 <div class="container">
   <div class="aa-product-details section" id="features">
